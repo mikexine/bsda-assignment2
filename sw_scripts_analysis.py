@@ -27,7 +27,7 @@ data = {
         "cleaner": [["Luke's", "Luke"], ["Vader's", "Vader"],
                     ["Artoo's", "Artoo"], ["Leia's", "Leia"],
                     ["Int", ""], ["Ext", ""]],
-        "mask": "masks/original_mask.png",
+        "mask": "masks/sw_original_mask.png",
         "target_file": "results/original_wordcloud.png"
     },
     "prequel": {
@@ -38,7 +38,7 @@ data = {
         "cleaner": [["Luke's", "Luke"], ["Vader's", "Vader"],
                     ["Artoo's", "Artoo"], ["Leia's", "Leia"],
                     ["Int", ""], ["Ext", ""], ["Wan's", "Wan"]],
-        "mask": "masks/prequel_mask.png",
+        "mask": "masks/sw_prequel_mask.png",
         "target_file": "results/prequel_wordcloud.png"
     }
 }
