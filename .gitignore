@@ -1,0 +1,5 @@
+*.txt
+env/
+*.pyc
+__pycache__/
+map-reduce/
