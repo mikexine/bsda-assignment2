@@ -15,12 +15,12 @@ prequel_urls = ["http://www.imsdb.com/scripts/Star-Wars-The-Phantom-Menace.html"
 data = {
     "original": {
         "urls": original_urls,
-        "filename": "1original_trilogy.txt",
+        "filename": "original_trilogy.txt",
         "script": ""
     },
     "prequel": {
         "urls": prequel_urls,
-        "filename": "1prequel_trilogy.txt",
+        "filename": "prequel_trilogy.txt",
         "script": ""
     }
 }
