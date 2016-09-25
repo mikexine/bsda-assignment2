@@ -57,5 +57,5 @@ f.write(text)
 # text = f.read()
 
 
-create_wordcloud(text, "masks/original_economist.png", "results/economist.png")
+create_wordcloud(text, "masks/economist_mask.png", "results/economist.png")
 f.close()
