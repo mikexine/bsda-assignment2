@@ -27,8 +27,8 @@ data = {
         "cleaner": [["Luke's", "Luke"], ["Vader's", "Vader"],
                     ["Artoo's", "Artoo"], ["Leia's", "Leia"],
                     ["Int", ""], ["Ext", ""]],
-        "mask": "original_mask.png",
-        "target_file": "original_wordcloud.png"
+        "mask": "masks/original_mask.png",
+        "target_file": "results/original_wordcloud.png"
     },
     "prequel": {
         "urls": prequel_urls,
@@ -38,8 +38,8 @@ data = {
         "cleaner": [["Luke's", "Luke"], ["Vader's", "Vader"],
                     ["Artoo's", "Artoo"], ["Leia's", "Leia"],
                     ["Int", ""], ["Ext", ""], ["Wan's", "Wan"]],
-        "mask": "prequel_mask.png",
-        "target_file": "prequel_wordcloud.png"
+        "mask": "masks/prequel_mask.png",
+        "target_file": "results/prequel_wordcloud.png"
     }
 }
 
