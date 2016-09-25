@@ -19,7 +19,8 @@ def create_wordcloud(text, mask, target_file):
     mask = np.array(Image.open(mask))
     wc = WordCloud(background_color="white", max_words=2000,
                    mask=mask, stopwords=stopwords, width=2000,
-                   height=2000, scale=3)
+                   height=2000, scale=3, max_font_size=150,
+                   prefer_horizontal=0.5)
     wc.generate(text)
     wc.recolor(color_func=grey_color_func, random_state=3)
     wc.to_file(target_file)
